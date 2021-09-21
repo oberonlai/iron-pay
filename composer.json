@@ -1,0 +1,28 @@
+{
+    "name": "oberonlai/iron-pay",
+    "type": "project",
+    "require": {
+        "a7/autoload": "^2.1",
+        "oberonlai/wp-metabox": "^1.0"
+    },
+    "license": "propreitary",
+    "authors": [
+        {
+            "name": "Oberon Lai",
+            "email": "m615926@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "php-mock/php-mock-phpunit": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Irp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Irp\\Tests\\": "tests/"
+        }
+    }
+}

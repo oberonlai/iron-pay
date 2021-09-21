@@ -1,0 +1,8 @@
+.phpunit.cache
+config
+e2e
+node_modules
+vendor
+!/vendor/a7
+!/vendor/oberonlai
+!/vendor/autoload.php
